@@ -84,7 +84,7 @@ Complete the exercise in the space below:
 
 function greetUser (name , Time){
 
-    return `${name},${Time}`
+    return ` Good ${Time},${name}`
 }
 
 
