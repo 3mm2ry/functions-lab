@@ -36,7 +36,7 @@ Complete the exercise in the space below:
 */
 
 function isCharAVowel(character){
-    if(character === 'a' ||  character ==='e' ||character ==='i' || character ==='o'){
+    if(character === 'a' ||  character ==='e' ||character ==='i' || character ==='o'||character==='u'){
         return true
     }
     else{
@@ -45,6 +45,9 @@ function isCharAVowel(character){
 
 
 }
+
+console.log('Exercise 3 Result:', isCharAVowel("a"));
+
 
 /*
 Exercise 4: generateEmail()
